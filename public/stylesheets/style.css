@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+header{
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	background: skyblue;
+}
+header h2{
+	margin: 20px;
+	float: left;
+}
+header .userInfo{
+	float: right;
+}
+header .userInfo li{
+	float: left;
+	margin: 10px;
+}
+.leftnav{
+	float: left;
+	width: 200px;
+	border-right: 1px solid #ccc;
+	min-height: 300px;
+	text-align: center;
+	background: pink;
+}
+.leftnav li{
+	padding: 20px 0;
+}
+.content{
+	margin-left: 210px;
+}
+.content h3{
+	padding: 10px 0;
+}
+.content table{
+	border-collapse: collapse;
+	width: 90%;
+	margin-top: 20px;
+}
+.content table td,.content table th{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+span{
+	font-size: 12px;
+}
+form{
+	display: inline-block;
+}
